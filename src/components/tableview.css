@@ -1,0 +1,81 @@
+
+.tableview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 167px;
+    border-collapse: collapse;
+}
+
+
+
+table {
+    border: 2px solid forestgreen;
+    width: 800px;
+    height: 200px;
+    border-collapse: collapse;
+    
+}
+th {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+ 
+td {
+    text-align: center;
+    border-left: 1px solid black;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn1{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:blue;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 48px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn2{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 48px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.add{
+    display: flex;
+    justify-content: end;
+    margin-right: 120px;
+    margin-top: 30px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 48px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
